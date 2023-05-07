@@ -1,0 +1,48 @@
+a {
+    font-size:22px;
+    }
+  
+  a:link, a:visited {
+    background-color: #f44336;
+    color:rgba(0,0,0,0);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover {
+    width:550px; 
+    color:white;
+    transition:0.6s
+  }
+
+  .top {
+    position: fixed;
+    left:0px;
+    float:left;
+    padding:20px;
+    width:0px;
+  }
+  
+  .middle{
+    position: fixed;
+    top:70px;
+    left:0px;
+    float:left;
+    padding:20px;
+    width:0px;
+  }
+  
+  .bottom{
+    position: fixed;
+    top:132px;
+    left:0px;
+    float:left;
+    padding:20px;
+    width:0px;
+  }
+  body {
+    background-color: #061b47;
+      font-family:Trebuchet MS;
+      color: white;
+    }
