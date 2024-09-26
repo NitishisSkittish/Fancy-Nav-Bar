@@ -57,7 +57,7 @@ a {
 
 #nav_container:hover ~ #nav_background {
   visibility: visible;
-  width: 8%;
+  width: 10%;
   color: rgb(255, 247, 247);
   transition: 0.4s;
 }
