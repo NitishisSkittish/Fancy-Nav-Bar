@@ -1,43 +1,47 @@
+
 body {
-  background-color: #ada2a2;
+  background-color: #5a5858;
   font-family: Trebuchet MS;
   color: rgb(0, 0, 0);
   margin: 0;
   padding: 0;
 }
 
+
 a {
   color: black;
 }
 
 #nav-base {
-  height: 100vh;
+  height: 94vh;
 }
 
 .nav {
-  font-size: 30px;
+  font-size: 0vw;
   float: left;
-  padding: 20px;
+  padding: 1.8%;
   width: 0px;
 }
 
 #nav_container{
+  background-color: rgba(240, 248, 255, 0);
+  border-color: #d5def300;
   position: fixed;
-  width: 4%;
-  height: 21%;
-  z-index:50000000;
-  background-color: #fffafa00;
-  margin: 0;
-  padding: 0;
+  bottom: 0;
+  width: 15vw;
+  height: 8%;
+  z-index: 59034972376234768726478;
 }
 
 #nav_background {
-  width: 4%;
-  height: 21%;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  background: #f4db36;
+  width: 7.7vW;
+  height: 6.2vW;
+  background: #d5def3;
   transition: 0.4s;
+  z-index: 100;
+  bottom: 0;
+  position: fixed;
+  z-index: 1000;
 }
 
 .nav:link, .nav:visited {
@@ -48,31 +52,93 @@ a {
 }
 
 
-#nav_container:hover~.nav {
+#nav_container:hover~#top {
   visibility: visible;
   width: 5%;
-  color: rgb(6, 53, 85);
-  transition: 0.4s;
+  font-size: 1.5vh;
+  color: rgb(0, 0, 0);
+  transition: 0.9s;
+  z-index: 1001;
+}
+#nav_container:hover~#middle {
+  visibility: visible;
+  width: 5%;
+  font-size: 1.5vh;
+  color: rgb(0, 0, 0);
+  transition: 0.7s;
+  z-index: 1001;
+}
+#nav_container:hover~#bottom {
+  visibility: visible;
+  width: 5%;
+  font-size: 1.5vh;
+  color: rgb(0, 0, 0);
+  transition: 0.5s;
+  z-index: 1001;
 }
 
-#nav_container:hover ~ #nav_background {
-  visibility: visible;
-  width: 10%;
+#nav_container:hover~#nav_background{
+  height: 22%;
+  width: 16%;
+  border-top-right-radius:10px;
   color: rgb(255, 247, 247);
   transition: 0.4s;
 }
+#nav_container:hover{
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  top: -0.05%;
+}
+
 
 #top {
-  position: absolute;
-  top: 0.5%
+  position: fixed;
+  top: 80%;
+  color: white;
+  transition: 0.1s;
 }
 
 #middle {
-  position: absolute;
-  top: 6.5%
+  position: fixed;
+  top: 85%;
+  color: white;
+  transition: 0.1s;
 }
 
 #bottom {
   position: fixed;
-  top: 12.5%;
+  top: 90%;
+  color: white;
+  transition: 0.2s;
+}
+
+#image_placeholder{
+  position: fixed;
+  left: 3%;
+  top: -2.5%;
+  font-size: 3vmin;
+  z-index: 100001;
+}
+
+#hamburg{
+  height: 4vw;
+  width: 6%;
+  position: fixed;
+  bottom:1.2vw;
+  left: 1%;
+  z-index: 1001;
+}
+
+#nav_header{
+  background: #5a64aa;
+  width: 100%;
+  height: 6.2vw;
+  position: fixed;
+  bottom: 0;
+}
+#name{
+  position: fixed; 
+  left: 80vw; 
+  font-size: 2.5vw;
 }
